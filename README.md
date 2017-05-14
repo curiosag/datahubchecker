@@ -42,20 +42,20 @@ run it directly by invoking
 or include it in your pom
 
  ```
-             <plugin>
-                 <groupId>org.cg.mvn</groupId>
-                 <artifactId>mvndatahubchecker</artifactId>
-                 <version>1.0-SNAPSHOT</version>
-                 <inherited>false</inherited>
-                 <executions>
-                     <execution>
-                         <phase>compile</phase>
-                         <goals>
-                             <goal>check</goal>
-                         </goals>
-                     </execution>
-                 </executions>
-             </plugin>
+                        <plugin>
+                             <groupId>com.github.curiosag</groupId>
+                             <artifactId>maven-datahubchecker</artifactId>
+                             <version>1.0-SNAPSHOT</version>
+                             <inherited>false</inherited>
+                             <executions>
+                                 <execution>
+                                     <phase>compile</phase>
+                                     <goals>
+                                         <goal>check</goal>
+                                     </goals>
+                                 </execution>
+                             </executions>
+                         </plugin>
 ```
 
 It will check the directory it was executed in.
